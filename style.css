@@ -259,8 +259,8 @@ nav a {
   transform: translateY(-5px);
 }
 .product-box1 img {
-  width: 350px;
-  height: 500px;;
+  width: 250px;
+  height: 300px;
   min-height: 100px;
   object-fit: contain;
   border-radius: 10px;
@@ -424,6 +424,22 @@ nav a {
     background-position: 400%;
   }
 }
+
+
+/* الأساس للجوال */
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* عند الشاشات الأكبر */
+@media (min-width: 768px) {
+  .section {
+    flex-direction: row;
+  }
+}
+
 
 
 
